@@ -132,7 +132,7 @@ int main(){
     obj.inputArray();
    start:
         cout << "Menu:" << endl;
-        cout << "sPress 1 to display sum of array values" << endl;
+        cout << "Press 1 to display sum of array values" << endl;
         cout << "Press 2 to Display max value in array" << endl;
          cout << "Press 3 to Display min value in array" << endl;
         cout << "Press 4 to Search the values in array" << endl;
