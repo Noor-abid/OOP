@@ -7,6 +7,7 @@ string account_no;
 string account_type;
 int balance;
 int deposited_amount;
+int w;
 public:
 Bankaccount(string name, string ac_no ,string ac_type,int totalbalance){
   depositor_name=name;
@@ -19,6 +20,12 @@ int deposit(int amount){
 deposited_amount=amount;
 return deposited_amount;
 }
+void withdraw(int withdrawal_amount){
+    balance-=withdrawal_amount;
+w=withdrawal_amount;
+cout<<"the currently withdrawal amount is "<<withdrawal_amount<<endl;
+}
+
 void display();
 };
 void Bankaccount::display(){
@@ -32,4 +39,5 @@ int main(){
     obj.deposit(20000);
    cout<<"the current balance after depositing the amount is "<<endl;
     obj.display();
+    obj.withdraw(10000);
 }
