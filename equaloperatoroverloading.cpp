@@ -17,7 +17,7 @@ class Array{
     }  
     void display(){
         for (int i=0;i<5;i++){
-            cout<<"the value of index "<<i+1<<" is: "<<a[i]<<endl;
+            cout<<"the value of Index "<<i+1<<" is: "<<a[i]<<endl;
         }
     }  
     bool operator==(const Array x){
