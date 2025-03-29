@@ -9,7 +9,7 @@ class A{
         cin>>name;
     }
     void display(){
-        cout<<"Name: "<<name;
+        cout<<"name: "<<name;
     }
 };
 int main(){
